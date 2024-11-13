@@ -1,0 +1,22 @@
+﻿<Application x:Class="WPFDemo_1736.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFDemo_1736"            
+             Startup="Application_Startup"
+             Exit="Application_Exit_1">
+    <!--x:Class="WPFDemo_1736.App"表示這個XAML文件會與WPFDemo_1736 命名空間中的 App 類對應。
+    WPF 應用程式會使用 App.xaml.cs 來實現與 App.xaml 配對的 App 類別。-->
+
+    <!--xmlns:local="clr-namespace:WPFDemo_1736" 這行意思為將local映射為程式碼中的namespace，
+    之後在xaml中就可以使用local來當作namesapce-->
+    
+    <!--Startup指定了c#中的一個方法通常寫在APP.xaml.cs中這個方法會在應用程式啟動時被調用-->
+    
+    <!--Exit如同上述 用來處理應用程式退出時的清理工作或釋放資源。-->
+    
+    <!--StartupUri="MainWindow.xaml"這個意思為定了應用程式啟動時顯示的主視窗的 XAML 文件-->
+    <Application.Resources>
+         
+    </Application.Resources>
+    <!--Application.Resources主要是用來定義全局樣式，ex:按鈕、背景顏色、字體大小等等-->
+</Application>
